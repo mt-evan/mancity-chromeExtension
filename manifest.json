@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Man City Results",
+    "version": "1.0",
+    "description": "Displays recent Man City results.",
+    "permissions": [
+      "activeTab",
+      "storage",
+      "https://v3.football.api-sports.io/"
+    ],
+    "host_permissions": [
+      "https://v3.football.api-sports.io/*"
+    ],
+    "action": {
+      "default_popup": "index.html",
+      "default_title": "Man City Results"
+    },
+    "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self';"
+    }
+  }
+  
